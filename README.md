@@ -1,4 +1,3 @@
 # Study-Machine-Learning
 
-## 统计机器学习
-- 感知机
+* 统计学习方法
