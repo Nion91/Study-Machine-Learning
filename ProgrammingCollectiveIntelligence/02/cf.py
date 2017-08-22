@@ -75,7 +75,7 @@ def calculateSimilarItems(prefs,n=10,similarity=sim_distance):
 def getRecommendedItems(prefs,itemMatch,user):
 	score=prefs.loc[user].dropna()
 	weights=itemMatch.loc[score.index,~itemMatch.columns.isin(score.index)]
-	sim=weights.apply(lambda x:(x*score).sum()/x.sum()).sort_values(ascending=False)
+	sim=weights.apply(lambda x:(x*score).sum()/x.sum() if x.any() else 0).sort_values(ascending=False)
 	return sim
 
 
