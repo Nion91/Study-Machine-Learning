@@ -197,6 +197,14 @@ def multiDimensionScaling(data,rate=0.01,dist=distancePearson):
 	return loc
 
 
+def scatterText(data):
+	plt.subplot(111)
+	for i in range(data.shape[0]):
+		plt.text(data.x.iloc[i],data.y.iloc[i],data.index.tolist()[i])
+	plt.axis([-0.5,1.5,-0.5,1.5])
+	plt.show()
+
+
 
 if __name__=='__main__':
 	blog=pd.read_table(r'C:\Users\Administrator\Desktop\draft\data\blogdata.txt').set_index('Blog')
