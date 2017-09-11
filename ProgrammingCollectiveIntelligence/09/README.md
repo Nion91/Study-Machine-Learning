@@ -3,3 +3,4 @@
 * Multiplicative Updata Method
 * Gradient Approaches
 * Alternating Non-negative Least Squares
+* 均方根误差
