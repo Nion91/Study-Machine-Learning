@@ -8,3 +8,4 @@
   - 随机梯度上升
 * 06_svm
   - SMO
+* 07_adaboost
