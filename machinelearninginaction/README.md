@@ -9,3 +9,14 @@
 * 06_svm
   - SMO
 * 07_adaboost
+* 08_regression
+  - 局部加权线性回归
+  - 岭回归
+  - 向前逐步回归
+* 09_cart
+  - 回归树
+  - 模型树
+* 10_k-means
+  - k-means
+  - 二分k-means
+* 11_Apriori
