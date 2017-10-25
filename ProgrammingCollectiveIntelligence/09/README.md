@@ -1,6 +1,6 @@
 # 非负矩阵因子分解
 
-* Multiplicative Updata Method
+* Multiplicative Update Method
 * Gradient Approaches
 * Alternating Non-negative Least Squares
 * 均方根误差
