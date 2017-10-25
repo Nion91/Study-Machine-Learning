@@ -20,3 +20,5 @@
   - k-means
   - 二分k-means
 * 11_Apriori
+* 12_FP-growth
+* PCA
