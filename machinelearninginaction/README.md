@@ -21,4 +21,6 @@
   - 二分k-means
 * 11_Apriori
 * 12_FP-growth
-* PCA
+* 13_PCA
+* 14_SVD
+  - SVD协同过滤
